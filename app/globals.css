@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --bbm-red: #d71920;
+  --bbm-red-dark: #a90f16;
+  --bbm-black: #070707;
+  --bbm-ink: #1f242b;
+  --bbm-gray: #f3f4f6;
+  --bbm-line: #d9dde3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f8;
+  color: var(--bbm-ink);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+::selection {
+  background: rgba(215, 25, 32, 0.18);
+}
+
+.tech-grid {
+  background-image:
+    linear-gradient(rgba(31, 36, 43, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 36, 43, 0.06) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.reveal {
+  animation: fade-up 700ms ease both;
+}
+
+.reveal-delay-1 {
+  animation-delay: 100ms;
+}
+
+.reveal-delay-2 {
+  animation-delay: 180ms;
+}
+
+.reveal-delay-3 {
+  animation-delay: 260ms;
+}
+
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation-timeline: view();
+    animation-range: entry 8% cover 28%;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -33,9 +33,9 @@ export function Header({ company, content, locale }: HeaderProps) {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-neutral-950/[0.82] text-white shadow-2xl shadow-black/10 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link className="group flex min-w-0 items-center gap-3" href={`/${locale}#home`}>
-          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-white text-base font-black text-[var(--bbm-red)] shadow-lg shadow-black/20 transition group-hover:bg-red-50">
-            {brandInitials}
-          </span>
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-white text-base font-black text-[var(--bbm-red)] shadow-lg shadow-black/20 transition group-hover:bg-red-50">
+              BBM
+            </span>
           <span className="min-w-0">
             <span className="block truncate text-sm font-bold uppercase">
               {company.name}

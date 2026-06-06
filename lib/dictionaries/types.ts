@@ -27,7 +27,6 @@ export type Dictionary = {
     slogan: string;
     address: string;
     phone: string;
-    email: string;
   };
   header: {
     nav: NavItem[];
@@ -83,19 +82,6 @@ export type Dictionary = {
     eyebrow: string;
     title: string;
     intro: string;
-    fields: {
-      name: string;
-      email: string;
-      phone: string;
-      message: string;
-    };
-    placeholders: {
-      name: string;
-      email: string;
-      phone: string;
-      message: string;
-    };
-    button: string;
     detailsTitle: string;
   };
   footer: {

@@ -21,8 +21,7 @@ export const en: Dictionary = {
     name: "BBM Technologies",
     slogan: "A Solution Towards Digital",
     address: "8 Rue Shakespeare, 1627 El Mouradia, Alger",
-    phone: "021 60 28 26",
-    email: "info@bbmtech.com"
+    phone: "021 60 28 26"
   },
   header: {
     nav: [
@@ -153,19 +152,6 @@ export const en: Dictionary = {
     title: "Let's discuss your digital project",
     intro:
       "Connect with BBM Technologies to scope your needs, modernize your systems, and accelerate your digital transformation.",
-    fields: {
-      name: "Name",
-      email: "Email",
-      phone: "Phone",
-      message: "Message"
-    },
-    placeholders: {
-      name: "Your name",
-      email: "your.email@company.com",
-      phone: "Your phone",
-      message: "Describe your project"
-    },
-    button: "Send message",
     detailsTitle: "Contact details"
   },
   footer: {

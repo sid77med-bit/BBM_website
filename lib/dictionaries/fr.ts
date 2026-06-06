@@ -21,8 +21,7 @@ export const fr: Dictionary = {
     name: "BBM Technologies",
     slogan: "A Solution Towards Digital",
     address: "8 Rue Shakespeare, 1627 El Mouradia, Alger",
-    phone: "021 60 28 26",
-    email: "info@bbmtech.com"
+    phone: "021 60 28 26"
   },
   header: {
     nav: [
@@ -153,19 +152,6 @@ export const fr: Dictionary = {
     title: "Parlons de votre projet digital",
     intro:
       "Échangez avec BBM Technologies pour cadrer vos besoins, moderniser vos systèmes et accélérer votre transformation numérique.",
-    fields: {
-      name: "Nom",
-      email: "Email",
-      phone: "Téléphone",
-      message: "Message"
-    },
-    placeholders: {
-      name: "Votre nom",
-      email: "votre.email@entreprise.com",
-      phone: "Votre téléphone",
-      message: "Décrivez votre projet"
-    },
-    button: "Envoyer le message",
     detailsTitle: "Coordonnées"
   },
   footer: {

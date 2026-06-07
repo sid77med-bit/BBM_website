@@ -18,9 +18,9 @@ export const en: Dictionary = {
     openGraphLocale: "en_US"
   },
   company: {
-    name: "BBM Technologies",
+    name: "SARL BBM Technologies",
     slogan: "A Solution Towards Digital",
-    address: "Rue les Crêtes N°52 Sct. 30 RDC Hydra, Alger",
+    address: " Rue les crêtes propriété N° 52 section 30 rez de chaussées, HYDRA, Alger",
     phone: "021 60 28 26"
   },
   header: {

@@ -20,7 +20,7 @@ export const fr: Dictionary = {
   company: {
     name: "BBM Technologies",
     slogan: "A Solution Towards Digital",
-    address: "8 Rue Shakespeare, 1627 El Mouradia, Alger",
+    address: "Rue les Crêtes N°52 Sct. 30 RDC Hydra, Alger",
     phone: "021 60 28 26"
   },
   header: {
